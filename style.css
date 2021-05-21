@@ -1,0 +1,19 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.footer-ul_li
+{
+    display: inline-block;
+    padding: 5px;
+}
+.footer-ul_li a
+{
+    color: black;
+}
+a
+{
+    text-decoration: none;
+}
