@@ -12,19 +12,20 @@ ul
 .nav-ul_li
 {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 15px;
     padding: 7px;
 }
 .nav-ul_li a
 {
     text-decoration: none;
     color: #001219;
-    font-size: 16px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .nav-ul_li a button
 {
     background-color: #1a73e8;
-    width: 95px;
+    width: 100px;
     height: 40px;
     color: #fafafa;
     border-radius: 5px;
@@ -46,9 +47,9 @@ ul
 .barra input
 {
     margin-top: 14px;
-    width: 400px;
-    height: 33px;
-    border-radius: 10px;
+    width: 550px;
+    height: 37px;
+    border-radius: 14px;
     border: 1px #e5e5e5 solid;
 }
 .botones
@@ -61,9 +62,13 @@ ul
     margin: 0px 15px;
     width: 150px;
     height: 40px;   
-    border-radius: 7%;
+    border-radius: 5%;
     border: none; 
     box-sizing: border-box;
+}
+.botones button:hover
+{
+    border: 1px #353535 solid;
 }
 .footer-ul
 {
@@ -74,10 +79,16 @@ ul
     display: inline-block;
     padding: 5px;
     margin-top: 245px;
+    margin-left: 20px;
+}
+.footer-ul li:nth-of-type(5)
+{
+    margin-left: 390px;
 }
 .footer-ul_li a
 {
-    color: black;
+    color: #70757a;
+    font-family: Arial, Helvetica, sans-serif;
 }
 a
 {
