@@ -32,4 +32,35 @@ ul
 .nav-ul_li a button :hover
 {
     box-shadow: #001219
+    box-sizing: border-box;
+}
+.imagen 
+{
+    text-align: center;
+    margin-top: 100px;
+}
+.barra
+{
+    text-align: center;
+}
+.barra input
+{
+    margin-top: 14px;
+    width: 400px;
+    height: 33px;
+    border-radius: 10px;
+    border: 1px #e5e5e5 solid;
+}
+.botones
+{
+    text-align: center;
+    margin-top: 20px;
+}
+.botones button
+{
+    margin: 0px 15px;
+    width: 150px;
+    height: 40px;   
+    border-radius: 7%;
+    border: none; 
 }
