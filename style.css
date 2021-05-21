@@ -23,11 +23,12 @@ ul
 }
 .nav-ul_li a button
 {
-    background-color: #219ebc;
+    background-color: #1a73e8;
     width: 95px;
     height: 40px;
+    color: #fafafa;
     border-radius: 5px;
-    border: #219ebc solid;
+    border: #1a73e8 solid;
 }
 .nav-ul_li a button :hover
 {
@@ -62,4 +63,23 @@ ul
     height: 40px;   
     border-radius: 7%;
     border: none; 
+    box-sizing: border-box;
+}
+.footer-ul
+{
+    text-align: left;
+}
+.footer-ul_li
+{
+    display: inline-block;
+    padding: 5px;
+    margin-top: 245px;
+}
+.footer-ul_li a
+{
+    color: black;
+}
+a
+{
+    text-decoration: none;
 }
